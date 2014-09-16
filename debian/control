@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-sith
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-dynamic-reconfigure, ros-hydro-pr2-controllers-msgs, ros-hydro-pr2-gripper-sensor-action, ros-hydro-pr2-gripper-sensor-controller, ros-hydro-pr2-gripper-sensor-msgs, ros-hydro-pr2-precise-trajectory, ros-hydro-rospy, ros-hydro-sensor-msgs
+Homepage: http://ros.org/wiki/pr2_sith
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-sith
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-dynamic-reconfigure, ros-hydro-pr2-controllers-msgs, ros-hydro-pr2-gripper-sensor-action, ros-hydro-pr2-gripper-sensor-controller, ros-hydro-pr2-gripper-sensor-msgs, ros-hydro-pr2-precise-trajectory, ros-hydro-rospy, ros-hydro-sensor-msgs
+Description: An extension of the PR2 props demo, but instead of high fives, the PR2 swings a lightsaber until it detects an impact.
